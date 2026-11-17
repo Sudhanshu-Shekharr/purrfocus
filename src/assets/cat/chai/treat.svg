@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%" fill="none">
+<!-- Drop shadow -->
+  <ellipse cx="160" cy="275" rx="75" ry="14" fill="#000" opacity="0.08" />
+  <!-- Tail -->
+  <path d="M210 240 C250 240 265 200 250 175 C240 160 225 175 230 190 C235 205 210 225 190 235" stroke="#4A3E3D" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <!-- Body -->
+  <path d="M105 260 C100 200 120 130 160 130 C200 130 220 200 215 260 C215 275 105 275 105 260 Z" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="6" stroke-linejoin="round"/>
+
+    
+  <!-- Calico body patches -->
+  <ellipse cx="135" cy="225" rx="24" ry="28" fill="#E29578" />
+  <ellipse cx="185" cy="235" rx="18" ry="22" fill="#4A3E3D" />
+  <!-- Head -->
+  <circle cx="160" cy="120" r="58" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="6"/>
+  <!-- Left Ear -->
+  <path d="M115 90 L95 40 L140 70 Z" fill="#4A3E3D" stroke="#4A3E3D" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M115 80 L104 50 L132 68 Z" fill="#332B2A" />
+  <!-- Right Ear -->
+  <path d="M205 90 L225 40 L180 70 Z" fill="#E29578" stroke="#4A3E3D" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M205 80 L216 50 L188 68 Z" fill="#D47A5A" />
+  
+  
+      <!-- Munching eyes -->
+      <path d="M135 116 Q145 106 155 116" stroke="#4A3E3D" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      <path d="M165 116 Q175 106 185 116" stroke="#4A3E3D" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      <polygon points="160,124 156,129 164,129" fill="#FF9A9E" />
+      <circle cx="128" cy="128" r="8" fill="#FFB5B5" opacity="0.6"/>
+      <circle cx="192" cy="128" r="8" fill="#FFB5B5" opacity="0.6"/>
+    
+
+    <!-- Tiny Fish Cookie in Paws -->
+    <g transform="translate(145, 215)">
+      <!-- Fish Cookie Body -->
+      <ellipse cx="15" cy="10" rx="14" ry="8" fill="#E67E22" stroke="#4A3E3D" stroke-width="3"/>
+      <polygon points="26,10 35,4 35,16" fill="#E67E22" stroke="#4A3E3D" stroke-width="2.5"/>
+      <circle cx="8" cy="8" r="1.5" fill="#4A3E3D"/>
+      <!-- Crumbs -->
+      <circle cx="3" cy="22" r="1.5" fill="#E67E22"/>
+      <circle cx="18" cy="25" r="2" fill="#E67E22"/>
+      <circle cx="28" cy="22" r="1.5" fill="#E67E22"/>
+    </g>
+    <!-- Paws holding treat -->
+    <ellipse cx="140" cy="228" rx="11" ry="8" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="3.5"/>
+    <ellipse cx="180" cy="228" rx="11" ry="8" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="3.5"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%" fill="none">
+<!-- Drop shadow -->
+    <ellipse cx="160" cy="265" rx="85" ry="16" fill="#000" opacity="0.08" />
+    <!-- Curled Nap Cat Body -->
+    <ellipse cx="160" cy="210" rx="72" ry="52" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="6"/>
+    <!-- Calico body patches -->
+    <ellipse cx="175" cy="195" rx="30" ry="24" fill="#E29578" />
+    <ellipse cx="195" cy="225" rx="22" ry="18" fill="#4A3E3D" />
+    <!-- Sleeping Head tucked in -->
+    <circle cx="120" cy="195" r="42" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="5"/>
+    <!-- Calico head patch -->
+    <ellipse cx="108" cy="180" rx="14" ry="12" fill="#4A3E3D" />
+    <!-- Ear tucked -->
+    <path d="M92 170 L80 135 L112 158 Z" fill="#E29578" stroke="#4A3E3D" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M92 162 L85 142 L106 156 Z" fill="#FFC0BE"/>
+    <!-- Sleeping Eye -->
+    <path d="M102 195 Q112 203 122 195" stroke="#4A3E3D" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <polygon points="118,206 114,210 122,210" fill="#FF9A9E"/>
+    <!-- Wrapped tail -->
+    <path d="M225 210 C240 235 210 260 170 260 C130 260 110 245 105 230" stroke="#4A3E3D" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Floating Z's -->
+    <text x="180" y="140" font-family="sans-serif" font-weight="bold" font-size="22" fill="#A8B4C0">z</text>
+    <text x="202" y="118" font-family="sans-serif" font-weight="bold" font-size="16" fill="#A8B4C0">z</text>
+    <text x="220" y="100" font-family="sans-serif" font-weight="bold" font-size="12" fill="#A8B4C0">z</text>
+</svg>

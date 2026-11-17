@@ -1,0 +1,522 @@
+{
+  "sessionCaptions": {
+    "0": [
+      "Your first little step",
+      "The cushion is waiting",
+      "Ready for a quiet start"
+    ],
+    "1": [
+      "One down, warming up nicely",
+      "A warm start on a quiet morning",
+      "One little paw forward"
+    ],
+    "2": [
+      "Two down, you're warming up",
+      "Two gentle steps in a row",
+      "Building a calm little rhythm"
+    ],
+    "3": [
+      "Three complete, finding your flow",
+      "Three quiet victories today",
+      "Almost at the long break"
+    ],
+    "4": [
+      "Four done, time for a deep rest",
+      "A full cycle of calm focus",
+      "Four quiet sessions wrapped up"
+    ],
+    "5": [
+      "Five sessions, steady and soft",
+      "Five paws along the garden path",
+      "Five quiet victories"
+    ],
+    "6": [
+      "Six sessions, a wonderful rhythm",
+      "Six little steps, quiet and calm",
+      "Halfway through a second round"
+    ],
+    "7": [
+      "Seven sessions, almost another cycle",
+      "Seven soft stretches today",
+      "Seven quiet focus blocks"
+    ],
+    "8": [
+      "Eight done, another long rest earned",
+      "Two full rounds of quiet work",
+      "Eight calm sessions finished"
+    ],
+    "9": [
+      "Nine sessions, so very dedicated",
+      "Nine sunlit moments together",
+      "Nine steady steps today"
+    ],
+    "10": [
+      "Ten sessions, purring with pride",
+      "Ten gentle chapters written",
+      "Ten calm sessions completed"
+    ],
+    "11": [
+      "Eleven sessions, one more to twelve",
+      "Eleven soft steps in the sun",
+      "Almost at twelve sessions"
+    ],
+    "12": [
+      "Twelve sessions, a day of quiet wonder",
+      "A magnificent day of calm study",
+      "Twelve quiet milestones reached"
+    ]
+  },
+  "microCopy": {
+    "focus": {
+      "idle": [
+        "A small start is still a start.",
+        "Ready when you are, no rush.",
+        "The kettle is warm. Let's begin.",
+        "Soft cushions, clear thoughts."
+      ],
+      "running": [
+        "You're doing it, step by step.",
+        "One calm breath at a time.",
+        "Soft paws walking by your side.",
+        "Steady as a sleeping cat."
+      ],
+      "paused": [
+        "Paused. The world can wait a moment.",
+        "Catch your breath, soft and slow.",
+        "Just a little breather.",
+        "Your place is saved right here."
+      ],
+      "finished": [
+        "Focus complete. Soft sigh of relief.",
+        "You did that. Wonderful work.",
+        "Time to rest your eyes a little.",
+        "A lovely stretch for a job well done."
+      ]
+    },
+    "shortBreak": {
+      "idle": [
+        "A little tea break awaits.",
+        "Time to give your eyes a rest.",
+        "Five minutes for a gentle pause.",
+        "Step away and shake out your paws."
+      ],
+      "running": [
+        "Breathe. Sip some cool water.",
+        "Look out the window for a while.",
+        "Let your shoulders drop down.",
+        "Watch the dust dancing in the sun."
+      ],
+      "paused": [
+        "Taking a break from your break.",
+        "Still resting, in your own time.",
+        "No clock watching right now.",
+        "Just lingering by the window."
+      ],
+      "finished": [
+        "Break complete. Refreshed and ready.",
+        "Ready for the next gentle step.",
+        "Hope that felt peaceful.",
+        "Back to work whenever you like."
+      ]
+    },
+    "longBreak": {
+      "idle": [
+        "A cozy, deep rest is calling.",
+        "You've earned a longer pause.",
+        "Time to wander away for a bit.",
+        "A generous pause for your mind."
+      ],
+      "running": [
+        "Find a sunbeam and curl right up.",
+        "Stir some tea and stretch out.",
+        "Let your mind drift wherever it wants.",
+        "A long, quiet stretch of peace."
+      ],
+      "paused": [
+        "Resting still, without hurry.",
+        "Soaking in the quiet afternoon.",
+        "Take all the space you need.",
+        "Nothing pressing on your time."
+      ],
+      "finished": [
+        "Long rest done. Feeling lighter.",
+        "All recharged and clear-minded.",
+        "Welcome back, calm and refreshed.",
+        "Ready for a fresh little start."
+      ]
+    }
+  },
+  "cat": {
+    "focus": [
+      "right beside you. one page at a time.",
+      "deep focus mode engaged. soft paws.",
+      "curled up while you do your best.",
+      "reading quietly next to you.",
+      "steady rhythm, calm thoughts.",
+      "watching the clock tick softly.",
+      "you are doing wonderfully.",
+      "keeping you cozy while you study.",
+      "just us two and a quiet room.",
+      "soft breath in, soft breath out.",
+      "letting the world fade away.",
+      "one calm thought leads to another.",
+      "i am proud of your steady focus.",
+      "every minute counts, little by little.",
+      "turning the pages together.",
+      "soft paws walking by your side."
+    ],
+    "break": [
+      "tea time! stretch your paws.",
+      "a nice deep breath together.",
+      "looking out at the gentle clouds.",
+      "time to sip some warm water.",
+      "you earned this peaceful moment.",
+      "soft sighs and relaxed shoulders.",
+      "shake out your hands and breathe.",
+      "let your eyes rest on the trees.",
+      "nothing to do right now but rest.",
+      "letting your thoughts drift soft.",
+      "a warm cup in two quiet hands.",
+      "peaceful pause between chapters.",
+      "resting is part of the work too.",
+      "listen to the soft rain outside.",
+      "gentle stretch towards the sky.",
+      "letting the quiet settle in."
+    ],
+    "idle": [
+      "ready whenever you are.",
+      "the warm cushion is waiting.",
+      "no rush at all, just being here.",
+      "watching the dust motes drift by.",
+      "tail swishing softly in the sun.",
+      "a quiet little corner of the day.",
+      "here beside you, whenever you begin.",
+      "the kettle is warm, no hurry.",
+      "a soft perch and a clear mind.",
+      "taking our time together.",
+      "sunbeams moving across the rug.",
+      "waiting patiently right by your book.",
+      "take your time to settle in.",
+      "cozy desk, quiet heart.",
+      "fresh notebook smells so lovely.",
+      "ready for another gentle session."
+    ],
+    "pet": [
+      "purrrrr... that is the spot.",
+      "soft chin scritches are the best.",
+      "blissful purring activates.",
+      "eyes softly squinting with joy.",
+      "happy gentle rumble.",
+      "thank you for the gentle pats.",
+      "warm head bonk right into your hand.",
+      "softest fur just for you.",
+      "leaning right into your fingers.",
+      "happy paws kneading the air.",
+      "a gentle rumbling from deep inside.",
+      "soft ears twitching happily.",
+      "blissful little sighs.",
+      "rubbing my cheek against your wrist.",
+      "pure cozy contentment.",
+      "warm purrs fill the whole room."
+    ],
+    "play": [
+      "pounce! got the yarn ball!",
+      "batting the little toy around.",
+      "wiggle wiggle... pounce!",
+      "so fast, so nimble!",
+      "catches the yarn with two paws.",
+      "rolling on my back with the toy!",
+      "tiny leaps across the rug.",
+      "swat swat swat! victory!",
+      "tangled in a little red ribbon.",
+      "zooming around with happy feet.",
+      "hunting the imaginary feather.",
+      "watch this acrobatic flip!",
+      "tossing the ball in the air.",
+      "ninja cat stealth mode engaged.",
+      "paws flying at lightning speed.",
+      "a little playful workout!"
+    ],
+    "playBlockedFocus": [
+      "almost there! let us finish first 🐾",
+      "chapter first, yarn ball right after.",
+      "stay in the flow. i will hold the toy.",
+      "steady paws now, playtime at break!",
+      "we can play as soon as the chime rings.",
+      "keep reading, the toy is waiting for us.",
+      "deep focus right now. yarn can wait.",
+      "one step at a time. playtime is next.",
+      "tucking the toy away until break time.",
+      "stay with it! break is coming soon.",
+      "focus now, playful pounces later.",
+      "you are doing great, stay on track.",
+      "saving our playtime for the tea break.",
+      "not yet, friend. eyes on your work!",
+      "almost at the break. hang in there!",
+      "the yarn ball patiently awaits the bell."
+    ],
+    "treat": [
+      "crunch crunch... delightful snack!",
+      "tiny fish cookie! my favorite.",
+      "nibble nibble, thank you friend.",
+      "such a delicious little treat.",
+      "licking my whiskers with delight.",
+      "crispy, golden, and so tasty.",
+      "a little treat for a good buddy.",
+      "eating gently without making a mess.",
+      "crunchy happiness in every bite.",
+      "sniff sniff... perfect snack!",
+      "savory treat for a studious cat.",
+      "purring right through my snack.",
+      "tastiest fish biscuit in town.",
+      "soft crumbs wiped away cleanly.",
+      "thank you for spoiling me.",
+      "fuel for companionship!"
+    ],
+    "stretch": [
+      "biiiiiig stretch from nose to tail!",
+      "yawn... reach for the sky now.",
+      "rolling on my back, so limber.",
+      "shake out those shoulders!",
+      "claws out, stretch out long!",
+      "arch your back like a calm cat.",
+      "front paws forward, deep stretch.",
+      "let all the stiffness melt away.",
+      "rolling left, rolling right.",
+      "soft pop of relaxed muscles.",
+      "lengthen your spine and sigh.",
+      "tail curls high in the air.",
+      "unfurling like a flower in the sun.",
+      "head to paw, feeling so limber.",
+      "stretching together makes it fun.",
+      "shaking out the cobwebs softly."
+    ],
+    "complete": [
+      "we did it! wonderful focus session.",
+      "sparkles and purrs all around!",
+      "look at you go, so very proud.",
+      "another chapter gently conquered.",
+      "you put in honest, calm work.",
+      "that session felt so smooth.",
+      "proud cat high-fives your palm!",
+      "a milestone reached with peace.",
+      "standing ovation from your cat buddy.",
+      "time to rest, you truly earned it.",
+      "celebrating another gentle victory.",
+      "golden session in the books!",
+      "pat on the back for a job well done.",
+      "look at all the progress you made.",
+      "soft confetti in our cozy room.",
+      "smiling with genuine cat pride."
+    ],
+    "reset": [
+      "it is okay. we start fresh anytime.",
+      "no worries at all, deep breath.",
+      "gentle reset. the cushion is ready.",
+      "fresh start whenever you want.",
+      "taking a step back is part of it.",
+      "no judgment here, only soft paws.",
+      "we can try again in our own time.",
+      "clear the slate, sip some water.",
+      "every new minute is a fresh page.",
+      "shaking it off gently together.",
+      "ready to begin again when you are.",
+      "nothing is lost. you are right here.",
+      "be kind to yourself, always.",
+      "a soft pause to recalibrate.",
+      "the clock waits for your ready heart.",
+      "fresh breath, new beginning."
+    ],
+    "wake": [
+      "oh! hi. i am right here.",
+      "yawn... blinked and you were here.",
+      "ready and awake! what are we doing?",
+      "soft stretch, wide eyes again.",
+      "hello friend, nice to see you.",
+      "shaking the sleep from my ears.",
+      "eyes wide and ready for study.",
+      "you woke me up softly, thank you.",
+      "stretching my toes, all refreshed.",
+      "right here with you, wide awake.",
+      "blink... oh, time to focus again!",
+      "fresh ears perked and attentive.",
+      "hello! my favorite human is back.",
+      "stretching out my front paws.",
+      "ready to be your study partner.",
+      "yawn complete. let us begin."
+    ],
+    "sleepy": [
+      "zzzz... sleepy paws dreaming...",
+      "just resting my eyelids a little...",
+      "soft snores in a warm sunbeam...",
+      "curled like a cozy croissant...",
+      "so warm and comfortable right now...",
+      "drifting into a soft cat nap...",
+      "heavy eyelids, soft purrs...",
+      "dreaming of chasing sunspots...",
+      "the cushion is impossibly soft...",
+      "just a five minute cat doze...",
+      "breathing slow and peaceful...",
+      "tail wrapped around my nose...",
+      "sleepy whiskers twitching softly...",
+      "so quiet, so calm in here...",
+      "soft purr fading into a snooze...",
+      "warm paws tucked under my chest..."
+    ],
+    "morning": [
+      "good morning. gentle start to the day.",
+      "sun is warm, tea is brewing.",
+      "ready for a quiet morning study.",
+      "first light streaming across the desk.",
+      "the birds are singing outside.",
+      "morning breeze through the window.",
+      "a fresh day with a clean slate.",
+      "soft morning stretch to greet the sun.",
+      "steam rising from your warm cup.",
+      "quiet morning hours are the best.",
+      "let us take today gently.",
+      "sunbeam landing right on my back.",
+      "breathing in the cool morning air.",
+      "first paws forward today.",
+      "peaceful start to a lovely morning.",
+      "ready for a fruitful quiet day."
+    ],
+    "lateNight": [
+      "late night study session, nice and quiet.",
+      "the stars are out, keep breathing slow.",
+      "peaceful midnight hours together.",
+      "the world is asleep, just us two.",
+      "lamp light feels so warm and golden.",
+      "soft crickets singing in the dark.",
+      "almost bedtime, take it easy.",
+      "one last quiet chapter tonight.",
+      "night air is cool and peaceful.",
+      "cozy shadows in our quiet room.",
+      "gentle pace for the late hour.",
+      "i will stay awake as long as you do.",
+      "soft glow of your desk lamp.",
+      "stars watching over your work.",
+      "winding down with gentle steps.",
+      "sweet dreams waiting for you soon."
+    ],
+    "evening": [
+      "good evening. the sky is turning peach.",
+      "golden hour lighting up our quiet desk.",
+      "evening calm settling into the room.",
+      "time to wind down into a gentle rhythm.",
+      "soft lamplight replacing the sun.",
+      "tea tastes especially warm tonight.",
+      "the day is softening all around us.",
+      "peaceful twilight study hour.",
+      "shadows growing long and cozy.",
+      "a quiet evening to finish small goals.",
+      "amber sunset through the glass.",
+      "breathing in the soft twilight air.",
+      "ready for a cozy evening chapter.",
+      "the world is getting quieter now.",
+      "warm paws resting in the sunset glow.",
+      "evening light suits your steady focus."
+    ],
+    "click": [
+      "boop! my nose feels a little cold.",
+      "meow? yes, i am right here.",
+      "gentle tap on my ear tip.",
+      "soft little head tilt for you.",
+      "blinking slowly with fondness.",
+      "tickles just a little bit.",
+      "a curious twitch of my whiskers.",
+      "looking up from my tiny book.",
+      "soft paw placed over your hand.",
+      "chirp! you have my full attention.",
+      "one ear swivel towards your voice.",
+      "gentle nose boop right back.",
+      "warm rumble in my chest.",
+      "ready for whatever comes next.",
+      "always happy to see you check in.",
+      "tiny tap, big warm feelings."
+    ],
+    "welcomeBack": [
+      "Welcome back 🌷 I saved your spot.",
+      "so good to see you again 🌷",
+      "the cushion stayed warm for you.",
+      "Welcome back 🌷 take your time today.",
+      "happy you are here 🌷 ready whenever.",
+      "a fresh little start today 🌷",
+      "i missed the sound of your quiet work.",
+      "Welcome back 🌷 no hurry at all.",
+      "sunbeam is right where you left it.",
+      "Welcome back 🌷 soft paws and warm tea.",
+      "settle in gently, you are doing fine 🌷",
+      "so glad you dropped by today.",
+      "Welcome back 🌷 one small page at a time.",
+      "the desk is peaceful and ready for you.",
+      "Welcome back 🌷 glad you are here.",
+      "happy reunion purrs starting up 🌷"
+    ],
+    "taskDone": [
+      "scratch that one off! so proud of you.",
+      "one small victory completed ✨",
+      "little checkmark, big steady progress.",
+      "purrs of celebration for that one!",
+      "checked and done! look at you go.",
+      "proud tail flick for your finished task.",
+      "one down! gentle paws applaud.",
+      "crossed off cleanly. feels so good.",
+      "small victory claimed today ✨",
+      "a happy purr for getting that done.",
+      "another quiet accomplishment checked off.",
+      "you did it! one small step forward.",
+      "neat little line through that task.",
+      "satisfied whisker twitch for you.",
+      "warm purr: that is done and dusted.",
+      "celebrating your steady effort ✨"
+    ],
+    "deskTap": [
+      "curious paw tapping the desk treasure.",
+      "sniffs the little object softly.",
+      "i like this right here next to us.",
+      "gently nudges it with a whisker.",
+      "such a cozy thing to have on the desk.",
+      "a quiet companion for our quiet study.",
+      "batting softly with a padded paw.",
+      "this corner is getting warmer every day.",
+      "saving a spot for your warm tea.",
+      "soft tail swish around the base.",
+      "you worked so hard to bring this here.",
+      "a gentle reminder of peaceful hours.",
+      "purrs softly as you tap the little item.",
+      "keeps the desk feeling like home.",
+      "one more little reason to sit and read.",
+      "soft paws approve of this arrangement."
+    ],
+    "journalNote": [
+      "every small effort counts. so proud of you.",
+      "gentle steps forward. be soft with yourself.",
+      "the hardest part is starting. you did it.",
+      "tomorrow is a fresh sunrise. rest now.",
+      "even a quiet session is a victory.",
+      "soft purrs for showing up today.",
+      "a peaceful chapter written in the quiet.",
+      "steady and calm, like leaves drifting.",
+      "you found a nice little rhythm today.",
+      "breathe easy. the work is resting now.",
+      "a lovely session. time for a warm cup.",
+      "reading side by side is my favorite.",
+      "look how far you have come, little by little.",
+      "sparkles in the air and soft purrs.",
+      "what a wonderful, peaceful focus time.",
+      "happy tail wags. that felt wonderful."
+    ]
+  },
+  "intentions": {
+    "emptyHints": [
+      "One chapter? A few flashcards? Start small.",
+      "Read three pages without rushing.",
+      "Review yesterday's notes gently.",
+      "Draft the first paragraph.",
+      "Solve two practice problems.",
+      "Organize your workspace for tomorrow."
+    ]
+  }
+}
+

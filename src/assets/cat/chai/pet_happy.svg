@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%" fill="none">
+<!-- Drop shadow -->
+  <ellipse cx="160" cy="275" rx="75" ry="14" fill="#000" opacity="0.08" />
+  <!-- Tail -->
+  <path d="M210 240 C250 240 265 200 250 175 C240 160 225 175 230 190 C235 205 210 225 190 235" stroke="#4A3E3D" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <!-- Body -->
+  <path d="M105 260 C100 200 120 130 160 130 C200 130 220 200 215 260 C215 275 105 275 105 260 Z" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="6" stroke-linejoin="round"/>
+
+    
+  <!-- Calico body patches -->
+  <ellipse cx="135" cy="225" rx="24" ry="28" fill="#E29578" />
+  <ellipse cx="185" cy="235" rx="18" ry="22" fill="#4A3E3D" />
+  <!-- Head -->
+  <circle cx="160" cy="120" r="58" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="6"/>
+  <!-- Left Ear -->
+  <path d="M115 90 L95 40 L140 70 Z" fill="#4A3E3D" stroke="#4A3E3D" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M115 80 L104 50 L132 68 Z" fill="#332B2A" />
+  <!-- Right Ear -->
+  <path d="M205 90 L225 40 L180 70 Z" fill="#E29578" stroke="#4A3E3D" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M205 80 L216 50 L188 68 Z" fill="#D47A5A" />
+  
+  
+      <!-- Ecstatic Closed Eyes -->
+      <path d="M132 116 Q144 104 156 116" stroke="#4A3E3D" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M164 116 Q176 104 188 116" stroke="#4A3E3D" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <polygon points="160,123 155,128 165,128" fill="#FF9A9E" />
+      <path d="M155 128 Q148 136 142 131" stroke="#4A3E3D" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M165 128 Q172 136 178 131" stroke="#4A3E3D" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <!-- Rosy Cheeks -->
+      <circle cx="128" cy="128" r="10" fill="#FF8A9E" opacity="0.7"/>
+      <circle cx="192" cy="128" r="10" fill="#FF8A9E" opacity="0.7"/>
+    
+
+    <!-- Floating Love Heart -->
+    <path d="M160 38 C155 25 138 25 138 40 C138 55 160 70 160 70 C160 70 182 55 182 40 C182 25 165 25 160 38 Z" fill="#FF6B81"/>
+    <!-- Purr vibration ripples -->
+    <path d="M85 110 Q80 120 85 130" stroke="#FFB5B5" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M235 110 Q240 120 235 130" stroke="#FFB5B5" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Paws tucked happily -->
+    <ellipse cx="140" cy="255" rx="14" ry="9" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="5"/>
+    <ellipse cx="180" cy="255" rx="14" ry="9" fill="#FFF5EA" stroke="#4A3E3D" stroke-width="5"/>
+</svg>
