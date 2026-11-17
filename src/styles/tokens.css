@@ -1,0 +1,70 @@
+:root {
+  /* ─── Glass surface tokens ─── */
+  --glass-bg: rgba(255, 248, 240, 0.62);
+  --glass-bg-strong: rgba(255, 250, 244, 0.88);
+  --glass-border: rgba(255, 255, 255, 0.55);
+  --glass-blur: 18px;
+  --glass-shadow: 0 10px 40px rgba(120, 60, 50, 0.12);
+
+  /* ─── Ink tokens ─── */
+  --ink-900: #3d3a35;
+  --ink-700: #5b534b;
+  /* Adjusted from #8a7e74 → #6b5f55 for WCAG AA (≥4.5:1) on glass surfaces */
+  --ink-500: #6b5f55;
+
+  /* ─── Accent tokens ─── */
+  --accent: #8b5e3c;
+  --accent-soft: #d9a68a;
+  --accent-focus: #f6ad7b;
+  --blush-strong: #e07a5f;
+  --surface: #faf6f0;
+
+  /* ─── Border radii ─── */
+  --r-card: 28px;
+  --r-tile: 18px;
+  --r-pill: 999px;
+
+  /* ─── Scene theming hooks (overridden by data-scene in scenes.css) ─── */
+  --scene-tint: rgba(246, 210, 185, 0.30);
+  --scene-overlay: rgba(61, 40, 30, 0.18);
+
+  /* ─── Typography scale ─── */
+  --fs-display: clamp(3rem, 6vw, 5.25rem);
+  --fs-title: 1.75rem;
+  --fs-body: 0.9375rem;
+  --fs-small: 0.8125rem;
+  --fs-micro: 0.6875rem;
+  --ls-micro: 0.18em;
+  --fs-timer: clamp(6rem, 12vw, 10rem);
+  --fw-timer: 300;
+
+  /* ─── Motion tokens ─── */
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 150ms;
+  --dur-base: 250ms;
+  --dur-slow: 500ms;
+
+  /* ─── Z-index scale ─── */
+  --z-base: 0;
+  --z-card: 10;
+  --z-header: 100;
+  --z-popover: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+
+  /* ─── Shadows ─── */
+  --shadow-card: 0 4px 24px rgba(120, 60, 50, 0.10);
+  --shadow-lift: 0 8px 32px rgba(120, 60, 50, 0.16);
+  --shadow-pop: 0 16px 48px rgba(120, 60, 50, 0.22);
+
+  /* ─── Status colors — soft / semantic variants ─── */
+  /* success = sage green */
+  --success: #5a8a6a;
+  --success-surface: #e8f5ec;
+  /* warning = honey amber */
+  --warning: #b07d2e;
+  --warning-surface: #fdf3dc;
+  /* danger = dusty rose */
+  --danger: #9e4f5a;
+  --danger-surface: #faeaec;
+}

@@ -1,0 +1,45 @@
+/*
+ * Scene token sets — applied by setting data-scene on <html>.
+ * Each scene overrides --scene-tint, --scene-overlay, and --glass-bg
+ * so GlassCard tint and page overlay both respond to the active scene.
+ *
+ * All sets guarantee WCAG AA contrast (>= 4.5:1) for both --ink-700 and --ink-500.
+ *
+ * Usage:  document.documentElement.setAttribute('data-scene', 'peach')
+ */
+
+/* ── Peach (default) — warm coral sunset ── */
+:root,
+[data-scene='peach'] {
+  --scene-tint: rgba(246, 210, 185, 0.30);
+  --scene-overlay: rgba(61, 40, 30, 0.16);
+  --glass-bg: rgba(255, 252, 248, 0.88);
+}
+
+/* ── Garden — soft botanical sage morning ── */
+[data-scene='garden'] {
+  --scene-tint: rgba(195, 215, 190, 0.28);
+  --scene-overlay: rgba(38, 48, 35, 0.14);
+  --glass-bg: rgba(252, 254, 250, 0.88);
+}
+
+/* ── Rain — cool slate afternoon & rainy dusk ── */
+[data-scene='rain'] {
+  --scene-tint: rgba(180, 195, 215, 0.32);
+  --scene-overlay: rgba(35, 45, 65, 0.18);
+  --glass-bg: rgba(250, 252, 255, 0.88);
+}
+
+/* ── Midnight — deep twilight indigo with warm study lamp ── */
+[data-scene='midnight'] {
+  --scene-tint: rgba(175, 185, 220, 0.28);
+  --scene-overlay: rgba(35, 38, 55, 0.16);
+  --glass-bg: rgba(253, 253, 255, 0.90);
+}
+
+/* ── Nocturne — deep midnight blue reading nook ── */
+[data-scene='nocturne'] {
+  --scene-tint: rgba(170, 180, 215, 0.28);
+  --scene-overlay: rgba(30, 34, 52, 0.16);
+  --glass-bg: rgba(253, 253, 255, 0.90);
+}
