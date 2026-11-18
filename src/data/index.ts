@@ -3,3 +3,4 @@ export * from './dialogue';
 export * from './poses';
 export * from './cats';
 export * from './outfits';
+export * from './hero';
