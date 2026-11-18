@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#8b5e3c" />
+  <path
+    fill="#faf6f0"
+    fill-rule="evenodd"
+    d="M19 14H35.5C43.5 14 48 18.8 48 25.5C48 32.2 43.5 37 35.5 37H27V50H19V14ZM27 21V30H34.8C38.6 30 40.5 28.2 40.5 25.5C40.5 22.8 38.6 21 34.8 21H27Z"
+  />
+</svg>

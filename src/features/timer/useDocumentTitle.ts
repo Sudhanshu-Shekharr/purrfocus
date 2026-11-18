@@ -17,7 +17,7 @@ export function getTitleForTimerState(
     return `${timeStr} · ${modeLabel}`;
   }
   if (status === 'paused') {
-    return `⏸ ${timeStr} · ${modeLabel}`;
+    return `Paused · ${timeStr} · ${modeLabel}`;
   }
   return DEFAULT_TITLE;
 }

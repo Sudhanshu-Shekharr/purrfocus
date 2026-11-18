@@ -118,16 +118,39 @@ describe('Timer Side Effects & Events', () => {
     expect(createdCount).toBe(1);
   });
 
-  it('formats document.title for running, paused, idle, and finished states', () => {
-    expect(getTitleForTimerState('running', 'focus', 1453)).toBe('24:13 · Focus');
-    expect(getTitleForTimerState('paused', 'focus', 1453)).toBe('⏸ 24:13 · Focus');
-    expect(getTitleForTimerState('idle', 'focus', 1500)).toBe('Purrfocus');
-    expect(getTitleForTimerState('finished', 'focus', 0)).toBe('Purrfocus');
+  it('formats document.title for running, paused, idle, and finished states without emoji', () => {
+    const emojiPattern =
+      /[\p{Extended_Pictographic}\p{Emoji_Presentation}\u{23F0}-\u{23FF}\u{2600}-\u{27BF}\u{1F000}-\u{1FAFF}]/u;
+
+    const titles = [
+      getTitleForTimerState('running', 'focus', 1453),
+      getTitleForTimerState('running', 'shortBreak', 300),
+      getTitleForTimerState('running', 'longBreak', 900),
+      getTitleForTimerState('paused', 'focus', 1453),
+      getTitleForTimerState('paused', 'shortBreak', 120),
+      getTitleForTimerState('idle', 'focus', 1500),
+      getTitleForTimerState('finished', 'focus', 0),
+    ];
+
+    expect(titles[0]).toBe('24:13 · Focus');
+    expect(titles[3]).toBe('Paused · 24:13 · Focus');
+    expect(titles[5]).toBe('Purrfocus');
+    expect(titles[6]).toBe('Purrfocus');
+
+    for (const title of titles) {
+      expect(title).not.toMatch(emojiPattern);
+    }
   });
 
-  it('useDocumentTitle updates title and restores original title on unmount', () => {
-    document.title = 'Original Purrfocus Title';
+  it('useDocumentTitle updates title without emoji and restores original title on unmount', () => {
+    const emojiPattern =
+      /[\p{Extended_Pictographic}\p{Emoji_Presentation}\u{23F0}-\u{23FF}\u{2600}-\u{27BF}\u{1F000}-\u{1FAFF}]/u;
+
+    document.title = 'Purrfocus';
     const { unmount } = renderHook(() => useDocumentTitle());
+
+    expect(document.title).toBe('Purrfocus');
+    expect(document.title).not.toMatch(emojiPattern);
 
     useTimerStore.setState({
       status: 'running',
@@ -136,8 +159,18 @@ describe('Timer Side Effects & Events', () => {
     });
 
     expect(document.title).toBe('20:00 · Focus');
+    expect(document.title).not.toMatch(emojiPattern);
+
+    useTimerStore.setState({
+      status: 'paused',
+      mode: 'focus',
+      remaining: 1195,
+    });
+
+    expect(document.title).toBe('Paused · 19:55 · Focus');
+    expect(document.title).not.toMatch(emojiPattern);
 
     unmount();
-    expect(document.title).toBe('Original Purrfocus Title');
+    expect(document.title).toBe('Purrfocus');
   });
 });
