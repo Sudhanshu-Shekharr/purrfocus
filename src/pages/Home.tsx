@@ -4,6 +4,7 @@ import {
   TimerSlot,
   CatSlot,
   HeroClock,
+  HeroHeadline,
   IntentionsCard,
   SetTheMoodCard,
   SceneryCard,
@@ -34,9 +35,7 @@ export const HomePage: React.FC = () => {
             <Eyebrow className="text-surface opacity-90 mb-2 block">
               YOUR COZY CAT POMODORO TIMER
             </Eyebrow>
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-display text-surface tracking-tight leading-[1.1] mb-2 drop-shadow-xs">
-              Study with a cat. Find your <span className="italic text-accent-focus">focus.</span>
-            </h1>
+            <HeroHeadline />
             <p className="font-sans text-body sm:text-lg text-surface max-w-xl font-normal leading-relaxed drop-shadow-xs">
               A soft little timer, calm sounds, and a friend who stays.
             </p>

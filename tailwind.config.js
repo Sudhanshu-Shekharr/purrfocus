@@ -64,6 +64,7 @@ export default {
       },
       fontSize: {
         display: ['clamp(3rem, 6vw, 5.25rem)', { lineHeight: '1.08', letterSpacing: '-0.02em' }],
+        hero: ['var(--fs-hero)', { lineHeight: '1.1', letterSpacing: '-0.02em' }],
         title: ['1.75rem', { lineHeight: '1.25', letterSpacing: '-0.01em' }],
         body: ['0.9375rem', { lineHeight: '1.65' }],
         small: ['0.8125rem', { lineHeight: '1.5' }],

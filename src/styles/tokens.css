@@ -30,6 +30,7 @@
 
   /* ─── Typography scale ─── */
   --fs-display: clamp(3rem, 6vw, 5.25rem);
+  --fs-hero: clamp(1.875rem, 8.2vw, 3.75rem);
   --fs-title: 1.75rem;
   --fs-body: 0.9375rem;
   --fs-small: 0.8125rem;

@@ -8,4 +8,5 @@ export { SetTheMoodCard } from '@/components/mood';
 export * from './SceneryCard';
 export * from './ExplainerCard';
 export * from './HeroClock';
+export * from './HeroHeadline';
 export * from './FooterStrip';
