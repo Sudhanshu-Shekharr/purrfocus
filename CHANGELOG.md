@@ -5,6 +5,25 @@ All notable changes to Purrfocus will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.1] - Polish: Tab Title, Two-Line Hero & Rotating First Line - 2026-11-18
+
+### Changed
+- **Emoji-Free Tab Title & Brand Favicon**:
+  - Simplified `index.html` `<title>` to `Purrfocus` and replaced the inline cat-emoji data-URI favicon with a crisp brand-palette `"P"` monogram (`public/favicon.svg`, `favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png`).
+  - Removed the pause emoji from `useDocumentTitle` (`Paused · 24:13 · Focus` instead of `⏸ 24:13 · Focus`) while keeping live running timer titles (`24:13 · Focus`) intact.
+- **Two-Line Responsive Hero Headline (`HeroHeadline`)**:
+  - Refactored the home hero `h1` to stay strictly two lines across 320–2560 px using the `--fs-hero` (`clamp(1.875rem, 8.2vw, 3.75rem)`) typography token, preserving the italic `text-accent-focus` treatment on `focus.`.
+- **Rotating First Line**:
+  - Added six original first-line variants (`src/data/hero.ts`) rotating sequentially every 5.5 s via a subtle 500 ms Framer Motion `rotateX` (15°) fade-and-flip transition.
+  - Stacked all six variants in a single CSS grid cell (`grid-area: 1 / 1`) to reserve width and height with zero reflow (Lighthouse mobile median CLS `0.024`, Performance `97`, Accessibility `100`, Best Practices `100`, SEO `92`).
+  - Pauses on `visibilitychange` when hidden, preserves cycle position across route changes and Focus Mode toggles, clears the single `setTimeout` on unmount, falls back statically to variant 1 with zero timers under `useReducedMotion`, and exposes a static screen-reader `h1` name (`"Study with a cat. Find your focus."`) without `aria-live`.
+
+### Added
+- **Hero & Title Test Coverage**:
+  - Added `src/components/home/HeroHeadline.test.tsx` (7 tests covering 5.5 s timing, non-repeating sequence, `grid-area: 1 / 1`, OS & Settings reduced motion, tab visibility pause/resume, static accessible name, and unmount cleanup).
+  - Extended `src/features/timer/effects.test.ts` with Unicode emoji-range assertions on document and timer titles.
+  - Extended `src/lib/contrast.test.ts` verifying hero `surface` ($\ge 4.5:1$) and `accent-focus` ($\ge 3.0:1$) contrast across all five scene tints.
+
 ## [0.9.0] - Phase 9: Responsiveness, Accessibility & Performance - 2026-11-16
 
 ### Added
